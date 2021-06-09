@@ -1,0 +1,32 @@
+<div class="layui-row layui-admin-mt10">
+            <span class="layui-breadcrumb">
+                <a href="">首页</a>
+                <a><cite>权限管理</cite></a>
+                <a><cite>菜单管理</cite></a>
+            </span>
+</div>
+<hr>
+<div class="layui-row layui-col-space15">
+    <div class="layui-col-md12">
+        <div class="layui-tab layui-tab-card">
+            <div class="layui-tab-content start">
+                <fieldset class="layui-elem-field layui-field-title">
+                    <legend>菜单管理</legend>
+                </fieldset>
+                <div id="menu-table-search">
+                    搜索菜单：
+                    <div class="layui-inline">
+                        <input class="layui-input" id="menu-search" autocomplete="off">
+                    </div>
+                    <button class="layui-btn" data-type="reload">搜索</button>
+                    <button class="layui-btn layui-bg-blue" data-type="insert">新增</button>
+                </div>
+                <table class="layui-hide" id="menu-table" lay-filter="menu"></table>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script type="text/html" id="menuBar">
+    <a class="layui-btn layui-bg-red layui-btn-sm" lay-event="del"><i class="layui-icon">&#xe640;</i>删除</a>
+</script>

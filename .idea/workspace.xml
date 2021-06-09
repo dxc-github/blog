@@ -1,0 +1,253 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="8c0d601c-22a6-43a7-adea-2283db334d7a" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="FxmlFile" />
+        <option value="Enum" />
+        <option value="Mapper" />
+        <option value="AnnotationType" />
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/apache-maven-3.5.0" />
+        <option name="userSettingsFile" value="D:\apache-maven-3.5.0\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1tFVk1JXuOpA75sQNmUmFNVoxTE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../yyblog-master" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="top.putongren.dxcblog.web.config" />
+      <recent name="top.putongren.dxcblog.config" />
+      <recent name="top.putongren.dxcblog.enums" />
+      <recent name="top.putongren.dxcblog.common" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\demo\dxcblog\src\main\resources\static\plugins" />
+      <recent name="F:\demo\dxcblog\src\main\resources\static\assets\js\management" />
+      <recent name="F:\demo\dxcblog\src\main\resources\static\assets\img" />
+      <recent name="F:\demo\dxcblog\src\main\resources\static\assets\js" />
+      <recent name="F:\demo\dxcblog\src\main\resources\static\assets\css\management" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.ApplicationServerStart">
+    <configuration name="ApplicationServerStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="top.putongren.dxcblog.ApplicationServerStart" />
+      <module name="dxcblog" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Test1" />
+      <module name="dxcblog" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ApplicationServerStart" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="dxcblog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="top.putongren.dxcblog.ApplicationServerStart" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Test1" />
+        <item itemvalue="Application.ApplicationServerStart" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8c0d601c-22a6-43a7-adea-2283db334d7a" name="Default Changelist" comment="" />
+      <created>1619596441306</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1619596441306</updated>
+      <workItem from="1619596444471" duration="4485000" />
+      <workItem from="1619656524776" duration="10581000" />
+      <workItem from="1619677087518" duration="21000" />
+      <workItem from="1619677172312" duration="8794000" />
+      <workItem from="1620889901248" duration="741000" />
+      <workItem from="1620952965409" duration="1847000" />
+      <workItem from="1621388180445" duration="529000" />
+      <workItem from="1621388831865" duration="13085000" />
+      <workItem from="1621407764643" duration="7155000" />
+      <workItem from="1621471242418" duration="23375000" />
+      <workItem from="1621559841697" duration="14129000" />
+      <workItem from="1621584429064" duration="5030000" />
+      <workItem from="1621817428911" duration="19585000" />
+      <workItem from="1621905403239" duration="22423000" />
+      <workItem from="1621991571187" duration="17633000" />
+      <workItem from="1622078334463" duration="22585000" />
+      <workItem from="1622162238707" duration="12406000" />
+      <workItem from="1622364965393" duration="16027000" />
+      <workItem from="1622467000345" duration="6422000" />
+      <workItem from="1622551039769" duration="8384000" />
+      <workItem from="1622638060034" duration="6597000" />
+      <workItem from="1622862466206" duration="1566000" />
+      <workItem from="1622976895869" duration="1634000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="586" y="198" key="#Inspections" timestamp="1622384763941">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="586" y="198" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1622384763941" />
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser" timestamp="1622638829296">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="225" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1622638829296" />
+    <state x="740" y="275" key="FileChooserDialogImpl" timestamp="1622862844656">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="740" y="275" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1622862844656" />
+    <state width="1877" height="224" key="GridCell.Tab.0.bottom" timestamp="1622644709117">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="224" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622644709117" />
+    <state width="1877" height="224" key="GridCell.Tab.0.center" timestamp="1622644709117">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="224" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622644709117" />
+    <state width="1877" height="224" key="GridCell.Tab.0.left" timestamp="1622644709117">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="224" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622644709117" />
+    <state width="1877" height="224" key="GridCell.Tab.0.right" timestamp="1622644709117">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="224" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622644709117" />
+    <state width="1877" height="224" key="GridCell.Tab.1.bottom" timestamp="1622644709117">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="224" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622644709117" />
+    <state width="1877" height="224" key="GridCell.Tab.1.center" timestamp="1622644709117">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="224" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622644709117" />
+    <state width="1877" height="224" key="GridCell.Tab.1.left" timestamp="1622644709117">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="224" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622644709117" />
+    <state width="1877" height="224" key="GridCell.Tab.1.right" timestamp="1622644709117">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="224" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622644709117" />
+    <state width="1877" height="224" key="GridCell.Tab.2.bottom" timestamp="1622644709117">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="224" key="GridCell.Tab.2.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1622644709117" />
+    <state width="1877" height="224" key="GridCell.Tab.2.center" timestamp="1622644709117">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="224" key="GridCell.Tab.2.center/0.0.1920.1040@0.0.1920.1040" timestamp="1622644709117" />
+    <state width="1877" height="224" key="GridCell.Tab.2.left" timestamp="1622644709117">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="224" key="GridCell.Tab.2.left/0.0.1920.1040@0.0.1920.1040" timestamp="1622644709117" />
+    <state width="1877" height="224" key="GridCell.Tab.2.right" timestamp="1622644709117">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="224" key="GridCell.Tab.2.right/0.0.1920.1040@0.0.1920.1040" timestamp="1622644709117" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1622368763295">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1622368763295" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/top/putongren/dxcblog/service/impl/MenuServiceImpl.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="ideajad">
+    <property name="annotate" value="false" />
+    <property name="annotateFully" value="false" />
+    <property name="braces" value="false" />
+    <property name="clear" value="false" />
+    <property name="confirmNavigationTriggeredDecompile" value="true" />
+    <property name="dead" value="true" />
+    <property name="defaultInitializers" value="false" />
+    <property name="dissassemblerOnly" value="false" />
+    <property name="fieldsFirst" value="true" />
+    <property name="fileExtension" value="java" />
+    <property name="fullyQualifiedNames" value="false" />
+    <property name="indentation" value="4" />
+    <property name="intRadix" value="10" />
+    <property name="lineNumbersAsComments" value="true" />
+    <property name="longRadix" value="10" />
+    <property name="maxStringLength" value="64" />
+    <property name="nocast" value="false" />
+    <property name="noclass" value="false" />
+    <property name="nocode" value="false" />
+    <property name="noconv" value="false" />
+    <property name="noctor" value="false" />
+    <property name="nodos" value="false" />
+    <property name="nofd" value="false" />
+    <property name="noinner" value="false" />
+    <property name="nolvt" value="false" />
+    <property name="nonlb" value="false" />
+    <property name="outputDirectory" value="" />
+    <property name="packFields" value="3" />
+    <property name="packImports" value="7" />
+    <property name="prefixNumericalClasses" value="_cls" />
+    <property name="prefixNumericalFields" value="_fld" />
+    <property name="prefixNumericalLocals" value="_lcl" />
+    <property name="prefixNumericalMethods" value="_mth" />
+    <property name="prefixNumericalParameters" value="_prm" />
+    <property name="prefixUnusedExceptions" value="_ex" />
+    <property name="readonly" value="false" />
+    <property name="safe" value="false" />
+    <property name="sort" value="false" />
+    <property name="spaceAfterKeyword" value="false" />
+    <property name="splitStringsAtNewline" value="false" />
+    <property name="useTabs" value="false" />
+  </component>
+</project>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="top.putongren.dxcblog.dao.RoleDao">
+    <sql id="Base_Column_List">
+        role_id, role_name, role_code, remark, create_user, create_time, update_user, update_time
+    </sql>
+
+    <select id="get" resultType="top.putongren.dxcblog.model.RoleDO" parameterType="Long">
+        select
+        <include refid="Base_Column_List" />
+        from sys_role
+        where role_id = #{roleId,jdbcType=BIGINT}
+    </select>
+
+    <delete id="remove" parameterType="Long">
+        delete from sys_role
+        where role_id = #{roleId,jdbcType=BIGINT}
+    </delete>
+
+    <insert id="save" parameterType="top.putongren.dxcblog.model.RoleDO">
+        insert into sys_role (role_id, role_name, role_code,
+        remark, create_user, create_time,
+        update_user, update_time)
+        values (#{roleId,jdbcType=BIGINT}, #{roleName,jdbcType=VARCHAR},
+        #{roleCode,jdbcType=VARCHAR},
+        #{remark,jdbcType=VARCHAR}, #{createUser,jdbcType=BIGINT}, #{createTime,jdbcType=TIMESTAMP},
+        #{updateUser,jdbcType=BIGINT}, #{updateTime,jdbcType=TIMESTAMP})
+    </insert>
+
+    <update id="update" parameterType="top.putongren.dxcblog.model.RoleDO">
+        update sys_role
+        <set>
+            <if test="roleName != null">
+                role_name = #{roleName,jdbcType=VARCHAR},
+            </if>
+            <if test="roleCode != null">
+                role_code = #{roleCode,jdbcType=VARCHAR},
+            </if>
+            <if test="remark != null">
+                remark = #{remark,jdbcType=VARCHAR},
+            </if>
+            <if test="createUser != null">
+                create_user = #{createUser,jdbcType=BIGINT},
+            </if>
+            <if test="createTime != null">
+                create_time = #{createTime,jdbcType=TIMESTAMP},
+            </if>
+            <if test="updateUser != null">
+                update_user = #{updateUser,jdbcType=BIGINT},
+            </if>
+            <if test="updateTime != null">
+                update_time = #{updateTime,jdbcType=TIMESTAMP},
+            </if>
+        </set>
+        where role_id = #{roleId,jdbcType=BIGINT}
+    </update>
+
+    <select id="listRole" resultType="top.putongren.dxcblog.model.RoleDO">
+        SELECT
+        <include refid="Base_Column_List" />
+        FROM sys_role
+    </select>
+</mapper>

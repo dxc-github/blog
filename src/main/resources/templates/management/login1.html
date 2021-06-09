@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="/static/plugins/layui/css/layui.css">
+    <link rel="stylesheet" type="text/css" href="/static/plugins/font-awesome/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="/static/assets/css/management/login1.css">
+    <!-- web font -->
+    <link href="//fonts.googleapis.com/css?family=Hind:300,400,500,600,700" rel="stylesheet">
+    <script>
+        addEventListener("load", function () {
+            setTimeout(hideURLbar, 0);
+        }, false);
+
+        function hideURLbar() {
+            window.scrollTo(0, 1);
+        }
+    </script>
+</head>
+
+<body>
+    <div class="w3layouts-main">
+        <div class="bg-layer">
+            <h1></h1>
+            <div class="header-main">
+                <div class="main-icon">
+                    <span class="fa fa-eercast"></span>
+                </div>
+                <div class="header-left-bottom">
+                    <div class="icon1">
+                        <span class="fa fa-user"></span>
+                        <input type="text" name="username" id="username" placeholder="用户名" required="" />
+                    </div>
+                    <div class="icon1">
+                        <span class="fa fa-lock"></span>
+                        <input type="password" name="password" id="password" placeholder="密码" required="" />
+                    </div>
+                    <div class="login-check">
+                        <label class="checkbox">
+                            <input type="checkbox" name="rememberMe" id="rememberMe" checked="true">
+                            记住密码</label>
+                    </div>
+                    <div class="bottom">
+                        <button class="btn" lay-submit lay-filter="submit">登录</button>
+                    </div>
+                    <!-- <div class="links">
+                            <p>
+                                <a href="#">忘记密码</a>
+                            </p>
+                            <p class="right">
+                                <a href="#">注册</a>
+                            </p>
+                            <div class="clear"></div>
+                        </div> -->
+                </div>
+                <!-- <div class="social">
+                    <ul>
+                        <li>or login using : </li>
+                        <li>
+                            <a href="#" class="facebook">
+                                <span class="fa fa-facebook"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="twitter">
+                                <span class="fa fa-twitter"></span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#" class="google">
+                                <span class="fa fa-google-plus"></span>
+                            </a>
+                        </li>
+                    </ul>
+                </div> -->
+            </div>
+
+            <!-- copyright -->
+            <div class="copyright">
+                <p>© 2019 海中一滴水
+                    <a href="#" target="_blank">博客首页</a>
+                </p>
+            </div>
+            <!-- //copyright -->
+        </div>
+    </div>
+
+    <script src="/static/plugins/layui/layui.js"></script>
+    <script src="/static/assets/js/common.js"></script>
+    <script src="/static/plugins/md5/md5.min.js"></script>
+    <script src="/static/assets/js/management/login1.js"></script>
+</body>
+
+</html>

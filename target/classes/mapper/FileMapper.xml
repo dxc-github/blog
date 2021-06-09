@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+<mapper namespace="top.putongren.dxcblog.dao.FileDao">
+    <sql id="Base_Column_List">
+        ID,
+        NAME,
+        URL,
+        POST
+    </sql>
+
+    <select id="listAllFile" resultType="top.putongren.dxcblog.model.FileDO">
+        SELECT
+        <include refid="Base_Column_List" />
+        FROM
+        T_FILE
+        ORDER BY ID
+    </select>
+
+    <insert id="save" parameterType="top.putongren.dxcblog.model.FileDO">
+        INSERT INTO T_FILE (ID, NAME, URL, POST)
+        VALUES (#{id,jdbcType=INTEGER}, #{name,jdbcType=VARCHAR}, #{url,jdbcType=VARCHAR}, #{post,jdbcType=TIMESTAMP})
+    </insert>
+
+    <delete id="delete" parameterType="Long">
+        DELETE FROM T_FILE
+        WHERE ID = #{id,jdbcType=INTEGER}
+    </delete>
+
+    <update id="updateById" parameterType="top.putongren.dxcblog.model.FileDO">
+        UPDATE T_FILE
+        <set>
+            <if test="name != null">
+                NAME = #{name,jdbcType=VARCHAR},
+            </if>
+            <if test="url != null">
+                URL = #{url,jdbcType=VARCHAR},
+            </if>
+            <if test="post != null">
+                POST = #{post,jdbcType=VARCHAR},
+            </if>
+        </set>
+        WHERE ID = #{id,jdbcType=INTEGER}
+    </update>
+</mapper>
