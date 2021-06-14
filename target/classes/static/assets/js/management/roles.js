@@ -1,7 +1,6 @@
-layui.use(['table', 'element', 'tree'], function () {
+layui.use(['table', 'element'], function () {
     var table = layui.table
         , element = layui.element
-        ,tree = layui.tree
     element.render();
 
     table.render({

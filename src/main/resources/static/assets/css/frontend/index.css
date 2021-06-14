@@ -1,0 +1,32 @@
+.content{
+    border: 1px solid red;
+    position: relative;
+    margin: 0 auto;
+    max-width: 1200px;
+    text-align: left;
+}
+
+.content_left{
+    border: 1px solid black;
+    /*width: 700px;*/
+    margin-right: 305px;
+}
+
+.itemimg{
+    border: 1px solid yellow;
+    float: left;
+}
+
+.itemimg img{
+    /*width: 220px;*/
+    height: 150px;
+}
+
+.itemArticle{
+    border: 1px solid blue;
+    /*width: 470px;*/
+    float: left;
+    word-wrap: break-word;
+    word-break: break-all;
+}
+
